@@ -4954,3 +4954,5 @@ FS_CORE
   }
 })();
 
+
+(function(){if(document.querySelector("style[data-ss=\"perimeter-inset-override\"]"))return;const css="/* Perimeter cards inset override: 10px -> 6px (center unchanged) */\n.grid-3x3 .cell:not(.cell--center):not([data-row=\"2\"][data-col=\"2\"]):not([data-center=\"true\"]) .phase1-card > *,\n.grid-3x3 .cell:not(.cell--center):not([data-row=\"2\"][data-col=\"2\"]):not([data-center=\"true\"]) .phase2-card > *,\n.grid-3x3 .cell:not(.cell--center):not([data-row=\"2\"][data-col=\"2\"]):not([data-center=\"true\"]) .phase3-card > * { inset: 6px !important; }";const el=document.createElement("style");el.type="text/css";el.setAttribute("data-ss","perimeter-inset-override");el.appendChild(document.createTextNode(css));document.head.appendChild(el);})();
